@@ -1,0 +1,14 @@
+{
+  "port" : 3000,
+  "secretKey" : "restAPI",
+  "db" : {
+    "dbName" : "restAPI",
+    "host" : "localhost",
+    "user" : "root",
+    "password" : "mysql",
+    "connectionLimitMax" : "10",
+    "connectionLimitMin" : "0",
+    "dialect" : "mysql",
+    "idle" : "10000"
+  }
+}
